@@ -1,0 +1,13 @@
+.process-form-styling {
+  background-color: #94cbff;
+  border-style: double;
+  padding-bottom: 25px;
+}
+
+.button {
+  font-size: 20px;
+  background: white;
+  border-style: solid;
+  padding: 10px;
+  color: darkgray;
+}

@@ -1,0 +1,71 @@
+.text-wrapper{
+	position: absolute;
+	top:150px;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+	background:#4d4d44 -webkit-gradient(linear, left top, right top, from(#eee), color-stop(0.5,#333)) 0 0 no-repeat;
+	-webkit-background-size:150px;
+	background-size:150px;
+	color:rgba(255,255,255,0.1);
+	-webkit-background-clip:text;
+	animation: animate 3s infinite;
+	font-size:144px;
+	  font-family:impact;
+}
+@keyframes animate{
+	0%, 10%{
+		background-position: -1000px;
+	}
+	20%{
+		background-position: top left;
+	}
+	90%{
+		background-position:top right ;
+	}
+	100%{
+		background-position:0 0 ;
+	}
+}
+.button {
+	background-color: silver;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 20px 34px;
+	text-align: center;
+	display: inline-block;
+	font-size: 33px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: lightgrey;
+	color: white;
+}
+.page{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	color:white;
+	background-color: rgb(30, 30, 182);
+	background-size:contain;
+	height:600px;
+	width:750px;
+	margin:auto;
+}
+.login{
+	position: absolute;
+	bottom: 22%;
+	left: 15%;
+}
+.signup{
+	position: absolute;
+	bottom: 22%;
+	left: 39%;
+}
+.about{
+	position: absolute;
+	bottom: 22%;
+	right: 12%;
+}

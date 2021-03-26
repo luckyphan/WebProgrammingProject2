@@ -1,0 +1,142 @@
+table{
+	text-align: center;
+	color:white;
+	background-color: rgb(30, 30, 182);
+  height:600px;
+  width:750px;
+  margin:auto;
+ 
+}
+a:visited {
+  color: black;
+}
+.error {
+  color: #FF0000;
+}
+.value, .category{
+  color:white;
+  text-shadow: black 2px 2px;
+  font-size: 150%;
+  text-decoration: none;
+  font-family:Impact;
+}
+.value{
+  color:rgb(228, 181, 64);
+  text-shadow: black 4px 3px;
+  font-size: 250%;
+  text-decoration: none;
+  font-family:Impact;
+}
+.value:hover{
+  color:white;
+  font-weight:bold;
+}
+.question{
+  background-color:blue;
+  color:white;
+  text-shadow: black 4px 3px;
+  font-weight:bold;
+  height:600px;
+  width:750px;
+  text-align:center;
+  font-size: 42pt;
+  margin:auto;
+}
+.response{
+  animation: fadeInAnimation ease 30s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  background-color:blue;
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  font-size:20pt;
+  margin:auto;
+}
+@keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            }
+} 
+input {
+  width: 300px;
+  height: 28px;
+}
+.register{
+  width:750px;
+  height:600px;
+  background-color:rgb(240, 248, 255);
+  margin:auto;
+  text-align:center;
+}
+.sign{
+  padding-top:40px;
+  color:blue;
+  font-weight:bold;
+  font-size:24px;
+  text-align:center;
+}
+.un{
+    width: 50%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.submit {
+  margin:auto;
+  width:28%;
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, blue, lightskyblue);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+input.submit:hover{
+  background:#ffffff;
+  color:blue;
+
+}
+.logout{
+  margin:auto;
+  width:12%;
+  text-align:center;
+  cursor: pointer;
+  border-radius: 5em;
+  background-color: rgb(30, 30, 182);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+a.logout:hover{
+  color:#ffffff;
+}
+a.logout:link, a.logout:visited{
+  color:rgb(228, 181, 64);
+}
